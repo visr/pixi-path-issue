@@ -1,0 +1,12 @@
+[workspace]
+channels = ["conda-forge"]
+name = "reprex"
+platforms = ["win-64", "linux-64"]
+version = "0.1.0"
+
+[dependencies]
+python = "3.13.*"
+
+[pypi-dependencies]
+local_package = { path = "local_package", editable = true }
+local_package_two = { path = "nested/local_package_two", editable = true }
