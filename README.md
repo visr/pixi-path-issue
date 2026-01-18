@@ -1,4 +1,5 @@
 Minimal reproducer for https://github.com/Deltares/Ribasim-NL/pull/333#issuecomment-2934981608
+Has since been fixed in https://github.com/prefix-dev/pixi/pull/3895
 
 `local_package` is a minimal Python package, that is added as an editable depedency in the pixi.toml.
 
